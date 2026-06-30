@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR5b0133/v1
+canonical_location: https://kanripo.org/bkk/KR5b0133/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 孝道吳許二真君傳
+  identifiers:
+    alt_id:
+    - DZ0449
+  date: '2015-08-28 23:49:49.997867'
+  source:
+    repository: kanripo
+    path: KR5b0133
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0133_000.yaml, hash: 'sha256:2ea5cdbc49675156bb7d3d38c58be86c17bcdfbe688c74e76393e94e0cd49952'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0133_000.markers.yaml, hash: 'sha256:c60537a1e011325c4745a699d252bc9a76f66b7ab076a5f98c76ec48d50b5e6b'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0133_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 4343
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:4e872ba027b6c19e6511c2ffddd268ac916c947e0fbf04347afadfa4e3f4cd5b
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
